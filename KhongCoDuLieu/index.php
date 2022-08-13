@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image" href="../image/sss.png"/>    
+    <link href="Barlow_Condensed?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Không Đủ Quyền Truy Cập</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+          font-family: 'Barlow Condensed', sans-serif; 
+        }
+        body{          
+            background-image: url("../image/TuanLoc.jpg");            
+            background-size: cover;
+            color: white;
+        }
+        .Tren{            
+            float: top;
+            width: 100%;
+            min-height: 50%;            
+            font-size: 200%;
+            text-align: center;
+        }
+        .Duoi{
+            margin-top: 20px;
+            width: 100%;
+            height: 100%; 
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>	
+    <div class="Tren">
+        <h1>Xin Lỗi</h1>
+        <h1>Dữ liệu truyền vào không đủ</h1>
+        <h6>Hãy kiểm tra lại liên kết</h6>   
+        <?php 
+       
+        ?>
+        <a style=" text-decoration: none;" href="../index.php"><img src='../image/home.png' width='60px'/></a>
+    </div>
+    <div class="Duoi">
+        <a href="https://www.facebook.com/SMPASoftware" target="_blank"><img src='../image/iconfb.png' width='60px'/></a>
+        <a href="tel:0349923955"><img src='../image/call.png' width='60px'/></a>        
+        <a href="https://www.youtube.com/channel/UCmpMDrPL0iINRYHkiKLBUbw" target="_blank"><img src='../image/iconyt.png' width='60px'/></a> 
+        <a href="mailto: Vansang10a6txqt@gmail.com" target="_blank"><img src='../image/gmail.png' width='60px'/></a>  
+        <a href="https://www.youtube.com/watch?v=ZNlij35YPDo" target="_blank"><img src='../image/huongdan.png' width='60px'/></a>
+    </div>
+</body>
+</html>
